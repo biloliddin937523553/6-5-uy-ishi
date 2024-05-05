@@ -1,0 +1,35 @@
+#cards div{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background: red;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    transition: 1s ease-in-out;
+}
+#cards div:hover{
+    background: white;
+    color: red;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(227, 227, 227);
+    padding: 30px;
+}
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+
+}
+
+#cards div img{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+}
